@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>염창 가라오케 예약 정보 | 염창역 도보 2분, 고급스러운 가라오케</title>
+    <meta name="description" content="염창 가라오케 예약, 위치, 가격, 시설 정보를 한눈에. 염창역 도보 2분 거리, 합리적인 가격에 프리미엄 공간을 즐겨보세요.">
+    <meta name="keywords" content="염창 가라오케, 염창 가라오케 예약, 염창 노래방, 염창 가라오케 정보, 염창 가라오케 위치, 염창 가라오케 가격">
+    <link rel="canonical" href="https://t3b07-yc-karaoke-rsv.vercel.app/info">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-noir-gold">
+    <meta property="og:title" content="염창 가라오케 예약 정보 | 염창역 도보 2분, 고급스러운 가라오케">
+    <meta property="og:description" content="염창 가라오케 예약, 위치, 가격, 시설 정보를 한눈에. 염창역 도보 2분 거리, 합리적인 가격에 프리미엄 공간을 즐겨보세요.">
+    <meta property="og:url" content="https://t3b07-yc-karaoke-rsv.vercel.app/info">
+    <meta property="og:type" content="website">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { font-size: 16px; scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background-color: #0a0a0a; color: #f5f5f0; line-height: 1.7; min-height: 100vh; }
+        h1, h2, h3, h4 { font-weight: 600; letter-spacing: -0.02em; }
+        h1 { font-size: 2.8rem; line-height: 1.2; margin-bottom: 0.75rem; }
+        h2 { font-size: 2rem; line-height: 1.3; margin-bottom: 1.5rem; margin-top: 2.5rem; }
+        h3 { font-size: 1.4rem; line-height: 1.4; margin-bottom: 0.75rem; margin-top: 2rem; }
+        p { margin-bottom: 1.25rem; font-size: 1.05rem; color: #d4d4c8; }
+        a { color: #d4af37; text-decoration: none; transition: color 0.2s ease; }
+        a:hover { color: #f0d060; }
+        .dropcap::first-letter { font-size: 3.6rem; font-weight: 700; float: left; line-height: 0.85; margin-right: 0.5rem; color: #d4af37; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+        header { background: linear-gradient(135deg, #0d0d0d 0%, #1a1a1a 100%); border-bottom: 1px solid #2a2a24; padding: 1rem 0; position: sticky; top: 0; z-index: 100; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+        nav { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+        nav .logo { font-size: 1.5rem; font-weight: 700; color: #d4af37; letter-spacing: -0.03em; }
+        nav ul { display: flex; gap: 2rem; list-style: none; }
+        nav ul li a { font-size: 1rem; color: #c4c4b8; font-weight: 500; padding: 0.25rem 0; border-bottom: 2px solid transparent; transition: border-color 0.2s; }
+        nav ul li a:hover, nav ul li a.active { color: #f5f5f0; border-bottom-color: #d4af37; }
+        .hamburger-menu { display: none; background: none; border: none; color: #f5f5f0; font-size: 1.8rem; cursor: pointer; padding: 0.25rem; }
+        .tel-link { display: inline-block; background: #d4af37; color: #0a0a0a; padding: 0.6rem 1.5rem; border-radius: 4px; font-weight: 600; font-size: 1.1rem; transition: background 0.2s, transform 0.2s; }
+        .tel-link:hover { background: #f0d060; color: #0a0a0a; transform: scale(1.03); }
+        .hero { padding: 5rem 0 3rem; text-align: center; }
+        .hero h1 { font-size: 3.2rem; }
+        .hero p { font-size: 1.2rem; max-width: 700px; margin: 0 auto 2rem; }
+        .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin: 3rem 0; }
+        .info-card { background: #141412; border: 1px solid #2a2a24; border-radius: 12px; padding: 2rem; transition: transform 0.2s, box-shadow 0.2s; }
+        .info-card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(212, 175, 55, 0.08); }
+        .info-card .icon { font-size: 2.5rem; margin-bottom: 1rem; display: block; }
+        .info-card h3 { margin-top: 0; font-size: 1.3rem; }
+        .info-card p { font-size: 0.95rem; }
+        .faq-list { margin: 2rem 0 4rem; }
+        .faq-item { border-bottom: 1px solid #2a2a24; padding: 1.5rem 0; }
+        .faq-item h4 { font-size: 1.15rem; margin-bottom: 0.5rem; color: #d4af37; }
+        .faq-item p { margin-bottom: 0; font-size: 0.98rem; }
+        footer { text-align: center; padding: 3rem 0; border-top: 1px solid #2a2a24; color: #88887a; font-size: 0.9rem; }
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.6rem; }
+            .hero h1 { font-size: 2.2rem; }
+            .hero { padding: 3rem 0 2rem; }
+            .hamburger-menu { display: block; }
+            nav ul { display: none; width: 100%; flex-direction: column; gap: 0.5rem; padding: 1rem 0; }
+            nav ul.active { display: flex; }
+            nav ul li a { display: block; padding: 0.6rem 0; border-bottom: none; }
+            .info-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">염창 가라오케</div>
+                <button class="hamburger-menu" aria-label="메뉴 열기" onclick="this.nextElementSibling.classList.toggle('active')">☰</button>
+                <ul>
+                    <li><a href="/">홈</a></li>
+                    <li><a href="/info" class="active">정보</a></li>
+                    <li><a href="/price">가격</a></li>
+                    <li><a href="/review">후기</a></li>
+                    <li><a href="tel:02-1234-5678" class="tel-link">전화 예약</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>염창 가라오케,<br>이 모든 정보가 다 있어</h1>
+            <p class="dropcap">솔직히 말하면, 친구들이랑 가라오케 갈 때마다 '어디가 좋지?' 하고 고민하잖아. 위치는 좋은지, 가격은 부담 없는지, 시설은 깔끔한지. 그래서 내가 염창 가라오케에 대해 진짜 다 알려줄게. 고민 끝, 예약 시작.</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <section>
+            <h2>📍 위치 & 오시는 길 — 염창역 도보 2분</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <span class="icon">🚇</span>
+                    <h3>염창역 2번 출구</h3>
+                    <p>걸어서 정확히 2분. 출구 나와서 직진하다 보면 '염창 가라오케' 간판이 보여. 비 오는 날도 편하게 올 수 있어.</p>
+                </div>
+                <div class="info-card">
+                    <span class="icon">🅿️</span>
+                    <h3>주차 가능</h3>
+                    <p>차 가지고 와도 걱정 마. 건물 지하 주차장 무료 2시간 지원. 차량 번호만 말해주면 끝.</p>
+                </div>
+                <div class="info-card">
+                    <span class="icon">🏢</span>
+                    <h3>건물 4층 전체</h3>
+                    <p>로비부터 인테리어가 달라. 엘리베이터 타고 4층 내리면 바로 리셉션. 입구부터 고급스러워서 기분 좋아져.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>🕐 영업 시간 & 이용 안내</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <span class="icon">⏰</span>
+                    <h3>영업 시간</h3>
+                    <p>매일 14:00 ~ 익일 04:00. 주말에는 06:00까지 연장 운영하니까 새벽까지 놀고 싶은 사람들한테 딱이야.</p>
+                </div>
+                <div class="info-card">
+                    <span class="icon">👥</span>
+                    <h3>최대 인원</h3>
+                    <p>룸당 2명~10명까지 가능. 단체로 와도 넉넉해. 10명 이상은 전화로 미리 얘기해 주면 룸 추가 준비해 줘.</p>
+                </div>
+                <div class="info-card">
+                    <span class="icon">🎤</span>
+                    <h3>시설 & 장비</h3>
+                    <p>최신 TJ 미디어 반주기, JBL 스피커, 무선 마이크 2개. 음질 하나는 진짜 최고야. 내가 노래 잘하는 척 할 수 있었던 비결이 여기 있어.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>❓ 자주 묻는 질문</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h4>예약은 어떻게 하나요?</h4>
+                    <p>전화 한 통이면 끝이야. 02-1234-5678로 전화해서 '염창 가라오케 예약이요' 하면 원하는 시간대랑 인원수만 알려주면 돼. 카톡 예약도 가능하니까 편한 방법으로 연락해.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>가격은 얼마인가요?</h4>
+                    <p>시간당 3만원부터 시작해. 주말이나 심야에는 약간 차이가 있지만, 다른 염창 가라오케에 비하면 진짜 합리적인 편이야. 자세한 가격표는 <a href="/price">가격 페이지</a>에서 확인해 봐.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>음식이나 음료는 따로 준비해야 하나요?</h4>
+                    <p>아니, 우리가 다 준비해. 기본 안주 세트랑 음료는 무료로 제공되고, 추가 주문도 가능해. 특히 떡볶이랑 치킨이 맛있다는 소문이 자자해. 직접 먹어보니까 인정할 수밖에 없더라.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>늦은 시간에도 예약할 수 있나요?</h4>
+                    <p>물론이지. 새벽 2시에 '갑자기 노래방 가고 싶다' 싶으면 전화해. 영업 시간 안에는 언제든지 예약 가능하니까 부담 없이 연락해.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>단체로 가면 할인되나요?</h4>
+                    <p>5명 이상이면 시간당 10% 할인, 8명 이상이면 15% 할인. 그리고 생일 파티나 기념일이면 깜짝 서비스도 준비되어 있어. 내 친구 생일에 갔는데 무료 샴페인까지 줬던 기억이 나네.</p>
+                </div>
+            </div>
+        </section>
+
+        <section style="text-align: center; padding: 3rem 0;">
+            <h2>이제 고민하지 말고 예약해</h2>
+            <p style="max-width: 600px; margin: 0 auto 2rem;">염창 가라오케 예약, 진짜 간단해. 위치도 좋고 가격도 착하고 시설도 최고야. 나도 처음 갔을 때 '왜 진짜 안 왔지?' 싶었어. 너도 그 느낌 알게 될 거야.</p>
+            <a href="tel:02-1234-5678" class="tel-link" style="font-size: 1.3rem; padding: 0.8rem 2.5rem;">📞 지금 전화 예약</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>염창 가라오케 | 서울 양천구 염창동 123-45 | 염창역 2번 출구 도보 2분</p>
+            <p>전화 예약: 02-1234-5678 | 카톡: @yc_karaoke</p>
+            <p>&copy; 2025 염창 가라오케. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.hamburger-menu').addEventListener('click', function() {
+            this.nextElementSibling.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
