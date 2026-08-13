@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (1/2) · t3b07-yc-karaoke-rsv</title>
+  <meta name="description" content="t3b07-yc-karaoke-rsv에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://yeomchang-room-tip.mapo-room-guide.xyz/posts.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+ *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+ html { font-size: 16px; scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; background-color: #0a0a0a; color: #f5f5f0; line-height: 1.7; min-height: 100vh; }
+ h1, h2, h3, h4 { font-weight: 600; letter-spacing: -0.02em; }
+ h1 { font-size: 2.8rem; line-height: 1.2; margin-bottom: 0.75rem; }
+ h2 { font-size: 2rem; line-height: 1.3; margin-bottom: 1.5rem; margin-top: 2.5rem; }
+ h3 { font-size: 1.4rem; line-height: 1.4; margin-bottom: 0.75rem; margin-top: 2rem; }
+ p { margin-bottom: 1.25rem; font-size: 1.05rem; color: #d4d4c8; }
+ a { color: #d4af37; text-decoration: none; transition: color 0.2s ease; }
+ a:hover { color: #f0d060; }
+ .dropcap::first-letter { font-size: 3.6rem; font-weight: 700; float: left; line-height: 0.85; margin-right: 0.5rem; color: #d4af37; }
+ .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+ header { background: linear-gradient(135deg, #0d0d0d 0%, #1a1a1a 100%); border-bottom: 1px solid #2a2a24; padding: 1rem 0; position: sticky; top: 0; z-index: 100; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+ nav { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+ nav .logo { font-size: 1.5rem; font-weight: 700; color: #d4af37; letter-spacing: -0.03em; }
+ nav ul { display: flex; gap: 2rem; list-style: none; }
+ nav ul li a { font-size: 1rem; color: #c4c4b8; font-weight: 500; padding: 0.25rem 0; border-bottom: 2px solid transparent; transition: border-color 0.2s; }
+ nav ul li a:hover, nav ul li a.active { color: #f5f5f0; border-bottom-color: #d4af37; }
+ .hamburger-menu { display: none; background: none; border: none; color: #f5f5f0; font-size: 1.8rem; cursor: pointer; padding: 0.25rem; }
+ .tel-link { display: inline-block; background: #d4af37; color: #0a0a0a; padding: 0.6rem 1.5rem; border-radius: 4px; font-weight: 600; font-size: 1.1rem; transition: background 0.2s, transform 0.2s; }
+ .tel-link:hover { background: #f0d060; color: #0a0a0a; transform: scale(1.03); }
+ .hero { padding: 5rem 0 3rem; text-align: center; }
+ .hero h1 { font-size: 3.2rem; }
+ .hero p { font-size: 1.2rem; max-width: 700px; margin: 0 auto 2rem; }
+ .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin: 3rem 0; }
+ .info-card { background: #141412; border: 1px solid #2a2a24; border-radius: 12px; padding: 2rem; transition: transform 0.2s, box-shadow 0.2s; }
+ .info-card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(212, 175, 55, 0.08); }
+ .info-card .icon { font-size: 2.5rem; margin-bottom: 1rem; display: block; }
+ .info-card h3 { margin-top: 0; font-size: 1.3rem; }
+ .info-card p { font-size: 0.95rem; }
+ .faq-list { margin: 2rem 0 4rem; }
+ .faq-item { border-bottom: 1px solid #2a2a24; padding: 1.5rem 0; }
+ .faq-item h4 { font-size: 1.15rem; margin-bottom: 0.5rem; color: #d4af37; }
+ .faq-item p { margin-bottom: 0; font-size: 0.98rem; }
+ footer { text-align: center; padding: 3rem 0; border-top: 1px solid #2a2a24; color: #88887a; font-size: 0.9rem; }
+ @media (max-width: 768px) {
+ h1 { font-size: 2rem; }
+ h2 { font-size: 1.6rem; }
+ .hero h1 { font-size: 2.2rem; }
+ .hero { padding: 3rem 0 2rem; }
+ .hamburger-menu { display: block; }
+ nav ul { display: none; width: 100%; flex-direction: column; gap: 0.5rem; padding: 1rem 0; }
+ nav ul.active { display: flex; }
+ nav ul li a { display: block; padding: 0.6rem 0; border-bottom: none; }
+ .info-grid { grid-template-columns: 1fr; }
+ }
+ </style>
+  <meta property="og:title" content="글 목록 (1/2) · t3b07-yc-karaoke-rsv">
+  <meta property="og:description" content="t3b07-yc-karaoke-rsv에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://yeomchang-room-tip.mapo-room-guide.xyz/posts.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header>
+ <div class="container">
+ <nav>
+ <div class="logo">염창 가라오케</div>
+ <button class="hamburger-menu" aria-label="메뉴 열기" onclick="this.nextElementSibling.classList.toggle('active')">☰</button>
+ <ul>
+ <li><a href="/">홈</a></li>
+ <li><a href="/info" class="active">정보</a></li>
+ <li><a href="/price">가격</a></li>
+ <li><a href="/review">후기</a></li>
+ 
+ </ul>
+ </nav>
+ </div>
+ </header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 40개 · 1/2 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260705-048.html">염창 가라오케 예약 시 미리 확인해야 할 이용 수칙과 팁</a>
+        <p class="post-item__summary">염창 가라오케 방문을 계획하고 있다면 우선 매장의 예약 체계를 정확히 이해하는 것이 중요합니다. 보통 인기가 많은 시간대에는 자리가 빠르게 마감되므로 사전에 연락하여 일정을 확정하는 과정이 필수입니</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260705-558.html">염창 가라오케 예약 시 미리 확인해야 할 필수 체크리스트</a>
+        <p class="post-item__summary">염창 가라오케를 방문하기 전 가장 먼저 고려해야 할 사항은 인원수에 최적화된 공간을 사전에 확보하는 것입니다. 가라오케는 공간의 크기와 배치에 따라 이용할 수 있는 인원이 정해져 있으므로 방문 예정</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0065.html">염창 가라오케 예약 방식처럼 고민되는 동대문 피로 해소 풋쌤 이용법</a>
+        <p class="post-item__summary">오랜 업무로 인해 몸이 경직된 상태에서 무작정 낯선 장소를 찾는 것은 염창 가라오케 예약 시스템을 처음 마주했을 때의 막막함과 비슷합니다. 특히 동대문 인근에서 신뢰할 수 있는 관리소를 찾으려는 분</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0066.html">염창 가라오케 예약 오해와 진실로 보는 마포 합정 인디 라운지 추천</a>
+        <p class="post-item__summary">흔히들 독립적인 공간 대여가 복잡한 절차를 요한다고 오해하지만 염창 가라오케 예약 방식과는 전혀 다른 접근이 필요합니다. 인디 소셜 라운지는 본래 대규모 행사보다는 긴밀한 유대감을 중시하는 모임에 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0067.html">염창 가라오케 예약 시스템처럼 자동화된 4</a>
+        <p class="post-item__summary">학습의 효율을 극대화하기 위해서는 시스템의 충족 조건이 명확히 나열되어야 합니다. 과거에는 염창 가라오케 예약처럼 수동적인 소통이 주를 이뤘으나 이제는 기술적인 자동화가 대세가 되었습니다. 무인 마</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0068.html">염창 가라오케 예약 고민처럼 신중한 도메인 지수 및 탈모 방지 가이드</a>
+        <p class="post-item__summary">웹사이트의 성장을 위해 어떤 지표를 먼저 개선해야 할지 고민해 본 적이 있습니까? 염창 가라오케 예약 시의 신중함처럼 온라인 영향력을 높이는 작업도 철저한 전략이 필요합니다. 무분별한 앵커 텍스트 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0069.html">염창 가라오케 예약 시스템으로 알아보는 자세한 내용 활용법</a>
+        <p class="post-item__summary">디지털 환경에서 신뢰도를 쌓는 과정은 오프라인 공간의 예약 절차와 매우 흡사합니다. 염창 가라오케 예약 시스템을 준비하는 과정처럼, 검색 결과 상위 노출을 위한 최적화 작업 역시 정해진 단계별 절차</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0070.html">염창 가라오케 예약 전략에서 배우는 원문 보기 이용 안내</a>
+        <p class="post-item__summary">검색 엔진 최적화를 수행하다 보면 예기치 못한 페널티를 마주하게 됩니다. 마치 염창 가라오케 예약 과정에서 갑작스러운 일정 변경이 발생했을 때 대처법을 고민하는 것과 비슷합니다. 이때 우리는 현상을</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0071.html">염창 가라오케 예약 전 반드시 알아야 할 마포 코인노래방 방음 시설 비교 가이드 및 팁</a>
+        <p class="post-item__summary">성공적인 여가 시간을 보내기 위해서는 장소 선정에 많은 공을 들여야 합니다. 흔히 염창 가라오케 예약 시 분위기에만 집중하다가 정작 중요한 시설의 퀄리티를 놓치는 경우가 많습니다. 특히 밀폐된 공간</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0072.html">염창 가라오케 예약 만큼 중요한 구글 봇 정밀 검진 및 크롤 버짓 밀착 간호 서비스의 이해</a>
+        <p class="post-item__summary">웹사이트 운영자에게 있어 검색 엔진의 방문은 가장 반가운 손님입니다. 마치 염창 가라오케 예약 후에 손님을 맞이할 준비를 하는 것처럼, 우리의 웹사이트도 구글 봇이 효율적으로 탐색할 수 있도록 환경</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0073.html">염창 가라오케 예약 시 마포 셔츠룸 예약 시 눈탱이 피하는 법 가이드</a>
+        <p class="post-item__summary">오랜만에 만난 지인들과 즐거운 시간을 보내기 위해 예약 연락을 취했다가 당황스러운 추가 비용을 청구받는 경우가 종종 발생합니다. 처음 방문하는 장소일수록 가격 구조를 명확히 파악하지 않으면 예상보다</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0074.html">염창 가라오케 예약 전 알아두는 성공적인 셔츠룸 예약 시간대</a>
+        <p class="post-item__summary">밤늦은 시간에 방문해야만 즐거운 시간을 보낼 수 있다는 인식은 사실 큰 오해입니다. 오히려 업체의 혼잡도가 낮은 이른 저녁 시간대를 공략하면 더 정성스러운 서비스를 경험할 수 있는 경우가 많습니다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0075.html">염창 가라오케 예약 시 확인해야 할 마포 단체 회식용 대형 룸 노래방 가격 정보</a>
+        <p class="post-item__summary">단체 회식을 준비할 때는 인원 수용 능력과 쾌적한 음향 시설, 그리고 합리적인 예산 책정이 가장 먼저 고려되어야 합니다. 단순히 공간만 넓다고 해서 좋은 장소는 아니며, 인원 구성에 따른 최적의 동</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0076.html">염창 가라오케 예약 업체 선정과 구글 틈새 키워드 트래픽 외환 거래 전략의 상관관계</a>
+        <p class="post-item__summary">여러분은 정보를 검색할 때 어떤 기준을 가지고 가장 신뢰할 만한 업체를 선택하고 계신가요? 단순히 상단에 노출된 광고를 클릭하는 것만으로는 진정성 있는 정보를 얻기 어렵다는 사실을 이미 체감하고 계</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0077.html">염창 가라오케 예약 시 살펴보는 마포 유흥 투명 정찰제 가격 정보 디렉토리의 가치</a>
+        <p class="post-item__summary">염창 가라오케 예약 과정을 효율적으로 진행하기 위해서는 사전에 업소의 비용 체계를 명확히 인지하는 것이 필수적입니다. 많은 이용객이 현장에서 가격 변동을 겪으며 불편을 호소하는데, 이를 방지하기 위</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0078.html">염창 가라오케 예약 전 알아야 할 마포 셔츠룸 리얼 후기 소셜 마케팅 가이드의 판단 기준</a>
+        <p class="post-item__summary">염창 가라오케 예약 성공을 위해서는 단순히 유명하다는 업소를 선택하기보다 본인의 성향과 예산에 최적화된 곳을 찾는 것이 중요합니다. 시중에는 수많은 정보가 범람하지만, 그중 어떤 것이 실제 경험에 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0079.html">실패 없는 염창 가라오케 예약 성공을 위한 마포 홍대 로컬 럭셔리 밤문화 가이드</a>
+        <p class="post-item__summary">염창 가라오케 예약 시 흔히 저지르는 실수는 충분한 사전 정보 없이 접근하는 것입니다. 단순히 위치가 가깝거나 가격이 저렴하다는 이유만으로 덜컥 예약을 진행했다가 현장에서 낭패를 보는 경우가 많습니</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260719-0080.html">염창 가라오케 예약 필수 체크리스트와 마포 홍대 단체 가라오케 예약 가이드</a>
+        <p class="post-item__summary">염창 가라오케 예약 시 가장 먼저 고려해야 할 점은 접근성과 단체 인원 수용 가능 여부입니다. 여러 사람이 함께 방문할 때는 이동 동선이 편리해야 하며, 무엇보다 많은 인원을 수용할 수 있는 넉넉한</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0282.html">염창 가라오케 예약 및 합정 셔츠룸 단골들이 뽑은 핫플 매거진</a>
+        <p class="post-item__summary">흔히 인기 있는 장소는 무조건 사람이 많고 시끄러울 것이라는 오해가 있습니다. 그러나 실제로 운영의 묘를 살린 곳들은 방문객의 편의를 위해 시간대별로 세밀한 관리를 진행하고 있습니다. 이러한 관점은</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0283.html">염창 가라오케 예약 필수 체크리스트 셔츠룸 사이트 정보</a>
+        <p class="post-item__summary">성공적인 모임을 구성하기 위해서는 장소 선정과 인원 배치라는 두 가지 핵심 충족 조건이 필수적으로 수반되어야 합니다. 특히 인원 규모에 따른 공간의 적합성을 사전에 파악하는 일은 전체적인 만족도를 </p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <span class="pager__current">1</span>
+      <a class="pager__link" href="posts-2.html">2</a>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>
